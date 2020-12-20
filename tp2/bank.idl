@@ -1,0 +1,5 @@
+interface Bank {
+  void crediter(in float somme);
+  void debiter(in float somme);
+  float montant();
+};
